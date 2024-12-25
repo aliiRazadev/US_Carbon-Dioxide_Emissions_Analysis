@@ -51,42 +51,59 @@ o	Applied one-hot encoding to columns like state-name, sector-name, and fuel-nam
 o	Verified the absence of missing values and ensured uniform data formatting.
 
 **5. Exploratory Data Analysis (EDA)**
+
 **Key Visualizations and Insights:**
+
 **1.	Total Emissions Over Time:**
 o	Emissions trends show distinct patterns with spikes or reductions corresponding to economic activities or policy changes.
+
 **2.	Top 5 States by Emissions:**
 o	States like Texas, California, and Pennsylvania consistently rank as the highest contributors to carbon dioxide emissions.
+
 **3.	Sector Contributions in Top State:**
 o	In high-emission states, the industrial and electric power sectors dominate emissions.
+
 **4.	Fuel Type Contributions:**
 o	Coal and petroleum are primary sources of emissions, with natural gas showing a moderate contribution.
+
 **5.	Anomalies and Trends:**
 o	Significant reductions in emissions were observed in certain states and sectors, likely due to shifts to renewable energy or economic changes.
+
 **6. Predictive Analysis**
+
 **Model Used:**
 Random Forest Regressor
 Features and Target:
 •	Features: State, sector, fuel type, and year.
 •	Target: Carbon dioxide emissions (value column).
+
 **Evaluation Metrics:**
 1.	Root Mean Squared Error (RMSE): Measures average prediction error.
 2.	Mean Absolute Error (MAE): Evaluates the average magnitude of errors.
 3.	R² (R-Squared): Explains the variance captured by the model.
+
 **Performance:**
 •	The model demonstrated strong predictive capabilities with low RMSE and MAE values and a high R² score, indicating reliability for forecasting future emissions.
+
 **7. Key Insights**
+
 **1.	High-Emission States:**
 o	Certain states, such as Texas and California, are consistently major contributors to emissions.
+
 **2.	Sectoral Trends:**
 o	Industrial and electric power sectors are critical drivers of emissions, necessitating targeted interventions.
+
 **3.	Fuel Dependency:**
 o	Coal and petroleum remain the dominant sources, highlighting the importance of transitioning to cleaner energy.
+
 **4.	Future Trends:**
 o	Predictive analysis offers actionable insights to guide environmental policy and clean energy initiatives.
+
 **8. Recommendations**
 1.	Focus on high-emission states for policy-driven interventions.
 2.	Prioritize the industrial and electric power sectors for emission reduction.
 3.	Transition from coal and petroleum to cleaner energy sources.
 4.	Leverage predictive insights to proactively manage and mitigate emissions.
+
 **9. Conclusion**
 This project comprehensively analyzed U.S. carbon dioxide emissions, identifying critical trends and contributors. The insights gained are instrumental in guiding targeted environmental policies and promoting sustainable energy practices. Predictive modeling further enhances the ability to forecast emissions and plan for a cleaner, sustainable future.
