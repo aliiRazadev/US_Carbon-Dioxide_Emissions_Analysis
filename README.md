@@ -6,12 +6,15 @@ U.S. Carbon Dioxide Emissions Analysis
 **1. Problem Definition and Objectives**
 **Problem Statement:**
 Identifying high-risk U.S. states for carbon emissions and the factors contributing to these emissions.
+
 **Objectives:**
 1.	Analyze historical emissions trends from 1970 onwards.
 2.	Identify key contributors by state, sector, and fuel type.
 3.	Predict future emissions using machine learning techniques.
+
 **Significance:**
 Understanding carbon dioxide emissions patterns helps policymakers target high-risk areas and sectors, transition to cleaner energy sources, and evaluate the effectiveness of emission-reduction policies.
+
 **2. Questions Posed**
 1.	Which states have the highest total carbon dioxide emissions?
 2.	What are the trends in carbon dioxide emissions over time?
@@ -22,6 +25,7 @@ Understanding carbon dioxide emissions patterns helps policymakers target high-r
 7.	What factors most strongly predict a state’s total emissions?
 8.	Can we cluster states based on similar emissions patterns and sector contributions?
 3. Data Source and Description
+
 **Dataset:**
 U.S. Carbon Dioxide Emissions by State, Sector, and Fuel Type
 Key Features:
@@ -30,18 +34,22 @@ Key Features:
 •	sector-name: Sector contributing to emissions (e.g., industrial, residential).
 •	fuel-name: Fuel type used (e.g., coal, petroleum, natural gas, or all fuels combined).
 •	value: Carbon dioxide emissions in million metric tons.
+
 **Dataset Relevance:**
 This dataset provides comprehensive data to analyze emissions trends, identify patterns, and predict future outcomes, offering insights into the energy consumption and environmental impact of different regions and sectors.
+
 **4. Data Wrangling and Cleaning**
 **Steps Performed:**
 **1.	Outlier Removal:** 
 o	Identified outliers using the interquartile range (IQR) method and removed rows with extreme emission values.
 **2.	Data Type Conversion: **
 o	Converted the year column to datetime format for time-series analysis.
+
 **3.	Encoding Categorical Variables:** 
 o	Applied one-hot encoding to columns like state-name, sector-name, and fuel-name for machine learning compatibility.
 **4.	Consistency Check: **
 o	Verified the absence of missing values and ensured uniform data formatting.
+
 **5. Exploratory Data Analysis (EDA)**
 **Key Visualizations and Insights:**
 **1.	Total Emissions Over Time:**
