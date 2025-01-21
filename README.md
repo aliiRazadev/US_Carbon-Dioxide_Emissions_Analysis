@@ -1,4 +1,4 @@
-# 2024_MSDS_19_Ali_Raza
+# US_Carbon-Dioxide_Emissions_Analysis
 Advance Techniques in Data science Project
 video link : https://youtu.be/YzLFpFypZSY
 U.S. Carbon Dioxide Emissions Analysis
